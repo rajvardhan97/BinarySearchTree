@@ -26,6 +26,11 @@ namespace BinarySearchTree
             binaryTree.Insert(67);
             binaryTree.Display();
             binaryTree.Size();
+            bool Find = binaryTree.Search(63, binaryTree);
+            if (Find == true)
+                Console.WriteLine("The element 63 is found in Binary Search Tree");
+            else
+                Console.WriteLine("The element 63 is not found in Binary Search Tree");
         }
     }
    
